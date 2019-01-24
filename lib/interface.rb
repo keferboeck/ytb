@@ -15,9 +15,7 @@ class Interface
     puts Terminal::Table.new :headings => headings, :rows => rows
   end
 
-  def print_value(value: 0, heading: [])
-    heading = verify_array(heading)
-
+  def print_value(value: 0, heading:)
     puts Terminal::Table.new { |row| row << [heading, value]}
   end
 
