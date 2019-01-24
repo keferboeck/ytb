@@ -49,8 +49,9 @@ _Required Improvements_
 
 _Incomplete_ 
 
-1. There are no tests for Task
-2. There are no tests for Interface
-3. Note that I only test messages of the public interface, as testing anything private that is unstable and likely to change is a duplication, given it is part of the test of a publicly available message, and thereby only ads cost (writing specs, maintaining them, etc.)
+1. There are no tests for `Task`
+2. There are no tests for `Interface`
 
 Mainly because both classes had been added in a spike towards the end of writing, they require cleaning up, respectively a rewrite anyway with testing first.
+
+3. Note that I only test messages of the public interface, as testing anything private that is unstable and likely to change is a duplication, given it is part of the test of a publicly available message, and thereby only ads cost (writing specs, maintaining them, etc.)
